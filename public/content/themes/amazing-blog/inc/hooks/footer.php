@@ -46,7 +46,7 @@ if ( ! function_exists( 'amazing_blog_footer' ) ) :
                     ?>
                 </div>
                 <div class="site-info">
-                    <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'amazing-blog' ) ); ?>"><?php printf( esc_html__( 'Newton Labs', 'amazing-blog' ), '' ); ?></a>
+                    <a href="<?php echo esc_url( __( 'https://newtonlabs.com.gt/', 'amazing-blog' ) ); ?>"><?php printf( esc_html__( 'Newton Labs', 'amazing-blog' ), '' ); ?></a>
                     <span class="sep"> | </span>
                     
                 </div><!-- .site-info -->
