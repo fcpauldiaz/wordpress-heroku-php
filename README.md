@@ -15,6 +15,7 @@ This will set up a fresh WordPress install on Heroku with the newly released [He
 * `Contact Form 7 ` - Easy Contact Form (4.4.2)
 * `Easy Twitter Feed` - Twitter feed sidebar (updated version 2016/06/09)
 * `Custom Sidebars` -  (updated version 2016/06/09)
+* `WP Statistics` -  Visitors Statistics (10.01)
  
 
 
