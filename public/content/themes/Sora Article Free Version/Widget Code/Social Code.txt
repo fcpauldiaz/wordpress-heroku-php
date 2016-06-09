@@ -1,0 +1,8 @@
+<a class="social-shortcode"  href="#"><img alt="facebook" border="0" src="http://4.bp.blogspot.com/-6xR5SlyKowA/U9yVu5f6_YI/AAAAAAAABaE/HF8dem6Q_2s/s1600/facebook.png" />
+</a>
+
+<a class="social-shortcode"  href="#" ><img alt="instagram" border="0" src="http://2.bp.blogspot.com/-Dc8ZZ8BbfUk/U9yVu1y1cnI/AAAAAAAABaI/4CiHqVRA8E0/s1600/instagram.png" /></a>
+
+<a class="social-shortcode"  href="#"><img alt="twitter" border="0" src="http://1.bp.blogspot.com/-ghkoG-4upBQ/U9yVvxspHtI/AAAAAAAABaQ/JdzfAu8QQ94/s1600/twitter.png" /></a>
+
+<a class="social-shortcode"  href="#"><img alt="youtube" border="0" src="http://1.bp.blogspot.com/-2KdBFeU5f0s/U9yVwDu-5MI/AAAAAAAABaY/mgilLMsS8jE/s1600/youtube2.png" /></a>
