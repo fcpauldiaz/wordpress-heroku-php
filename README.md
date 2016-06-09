@@ -4,11 +4,20 @@ This will set up a fresh WordPress install on Heroku with the newly released [He
 
 * `nginx` - Nginx for serving web content.
 * `php` - PHP-FPM for process management.
-* `wordpress` - Downloaded from the Github WordPress Repo.
+* `wordpress` - Downloaded from the Github WordPress Repo. (updated version 4.5.2)
 * `MySQL` - ClearDB for the MySQL backend.
 * `Sendgrid` - Sendgrid for the email backend.
 * `MemCachier` - MemCachier for the memcached backend.
 * `New Relic`- Monitoring
+
+##Plugins
+* `AWS3` - Amazon web Services (updated version 2016/06/09)
+* `Contact Form 7 ` - Easy Contact Form (4.4.2)
+* `Easy Twitter Feed` - Twitter feed sidebar (updated version 2016/06/09)
+* `Custom Sidebars` -  (updated version 2016/06/09)
+ 
+
+
 
 ## Getting started
 
