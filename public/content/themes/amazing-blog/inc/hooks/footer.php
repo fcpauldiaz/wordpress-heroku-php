@@ -46,9 +46,9 @@ if ( ! function_exists( 'amazing_blog_footer' ) ) :
                     ?>
                 </div>
                 <div class="site-info">
-                    <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'amazing-blog' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'amazing-blog' ), 'WordPress' ); ?></a>
+                    <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'amazing-blog' ) ); ?>"><?php printf( esc_html__( 'Newton Labs', 'amazing-blog' ), '' ); ?></a>
                     <span class="sep"> | </span>
-                    <?php printf( esc_html__( 'Theme: %1$s by %2$s', 'amazing-blog' ), 'Amazing Blog', '<a href="http://evisionthemes.com/" rel="designer">eVisionThemes </a>' ); ?>
+                    
                 </div><!-- .site-info -->
             </footer><!-- #colophon -->
         <!-- *****************************************
