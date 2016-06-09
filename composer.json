@@ -31,7 +31,8 @@
     "installer-paths": {
         "public/content/plugins/{$name}/": ["type:wordpress-plugin"],
         "public/content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-        "public/content/themes/{$name}/": ["type:wordpress-theme"]
+        "public/content/themes/{$name}/": ["type:wordpress-theme"],
+        "public/content/languages/{$name}/": ["type:wordpress-language"]
     }
   },
   "require-dev": {
