@@ -5,6 +5,10 @@
       "url": "https://wpackagist.org"
     },
     {
+        "type": "composer",
+        "url": "https://wp-languages.github.io"
+    },
+    {
       "type": "package",
       "package": {
         "name": "wordpress",
@@ -23,7 +27,9 @@
   "require": {
     "php": ">=5.3.0",
     "wordpress": "4.5.2",
-    "fancyguy/webroot-installer": "1.0.0"
+    "fancyguy/webroot-installer": "1.0.0",
+    "koodimonni-language/es_GT": "*"
+     
   },
   "extra": {
     "webroot-dir": "public/wp",
@@ -33,7 +39,10 @@
         "public/content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
         "public/content/themes/{$name}/": ["type:wordpress-theme"],
         "public/content/languages/{$name}/": ["type:wordpress-language"]
-    }
+    },
+    "dropin-paths": {
+        "htdocs/wp-content/languages/": ["vendor:koodimonni-language"]
+      }
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "dev-master"

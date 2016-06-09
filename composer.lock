@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8f976d449c3c67ec00adeb8385d8a71e",
-    "content-hash": "abab11354d2baf811606a43b0daa0889",
+    "hash": "cb95ad891dfca694e51ab591a11b6c05",
+    "content-hash": "478791f141ee04f74a3f8c5e5045ac7e",
     "packages": [
         {
             "name": "fancyguy/webroot-installer",
@@ -48,6 +48,92 @@
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
             "time": "2013-01-29 22:51:45"
+        },
+        {
+            "name": "koodimonni-language/es_gt",
+            "version": "4.5.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.5.2/es_GT.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni-theme-language/twentysixteen-es_gt": "*",
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Full Wordpress translation (including themes and core plugins) for  - es_gt",
+            "keywords": [
+                "Full-Package",
+                "Translation",
+                "Wordpress",
+                "es_gt",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentysixteen-es_gt",
+            "version": "1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentysixteen/1.2/es_GT.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress twentysixteen translation for  - es_gt",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "es_gt",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni/composer-dropin-installer",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/717d992bccb9e5b1fded44136333704d4e61a4ae",
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*-dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Koodimonni\\Composer\\Dropin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Koodimonni\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni@koodimonni.fi"
+                }
+            ],
+            "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
+            "time": "2015-06-11 14:15:20"
         },
         {
             "name": "wordpress",
